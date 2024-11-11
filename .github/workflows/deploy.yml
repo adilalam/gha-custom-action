@@ -70,4 +70,4 @@ jobs:
         with:
           bucket: ${{ secrets.S3_BUCKET_NAME }}
           dist-folder: ./dist
-          bucket-region: ${{ secrets.S3_BUCKET_REGION }}
+          # bucket-region: ${{ secrets.S3_BUCKET_REGION }}
